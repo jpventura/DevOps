@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+echo "Install DevOps dependencies"
+sudo apt-get install \
+     aptitude \
+     build-essential \
+     emacs \
+     git \
+     openssh-server \
+     tig \
+     vim \
+     xfonts-terminus \
+     xfonts-terminus-dos \
+     xfonts-terminus-oblique
+echo
+
+echo "Install Android Studio and Gradle dependencies"
+sudo apt-get install \
+     openjdk-8-dbg \
+     openjdk-8-doc \
+     openjdk-8-jdk
+echo
+
+echo "Install xPlanetFX dependencies"
+sudo apt-get install \
+     imagemagick \
+     perlmagick
+echo
+
+echo "Install Web Development dependencies"
+sudo apt-get install \
+     libuv1 \
+     npm \
+     nodejs
+echo
